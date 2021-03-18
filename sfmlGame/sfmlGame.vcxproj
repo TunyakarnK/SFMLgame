@@ -146,20 +146,60 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Flash.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="HUD.cpp" />
     <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Land.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="Pipe.cpp" />
+    <ClCompile Include="SplashState.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="StateMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="DEFINITIONS.h" />
+    <ClInclude Include="Flash.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameOverState.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="HUD.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Land.h" />
+    <ClInclude Include="MainMenuState.h" />
+    <ClInclude Include="Pipe.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SplashState.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="StateMachine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sfmlGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\comProg\game\bg.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\ceiling.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\chain.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\gameOver.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\gameOverBody.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\ground.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\playButton.png" />
+    <Image Include="..\..\..\..\Desktop\comProg\game\title.png" />
+    <Image Include="..\..\..\..\Pictures\BAT1.png" />
+    <Image Include="..\..\..\..\Pictures\BAT2.png" />
+    <Image Include="..\..\..\..\Pictures\BAT3.png" />
+    <Image Include="..\..\..\..\Pictures\spike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\sfml\sfml\font\TheWildBreathOfZelda-15Lv.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

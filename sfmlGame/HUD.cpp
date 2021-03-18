@@ -1,9 +1,9 @@
 #include "HUD.h"
 #include <string>
 
-HUD::HUD(GameDataRef data)
+HUD::HUD(GameDataRef data) : _data(data)
 {
-	_scoreText.setFont(_data->assets.GetFont("Flappy Font"));
+	_scoreText.setFont(_data->assets.GetFont("Batty Font"));
 	_scoreText.setString("0");
 	_scoreText.setCharacterSize(127);
 	_scoreText.setFillColor(sf::Color::White);

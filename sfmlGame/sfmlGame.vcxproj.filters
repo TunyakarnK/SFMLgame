@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\font">
+      <UniqueIdentifier>{cb16378a-bda8-40b0-a829-7de04dda73ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\res">
+      <UniqueIdentifier>{e1525243-0a36-4215-bed4-db42fb542170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\audio">
+      <UniqueIdentifier>{a945ca7a-8626-4c73-8d90-5395f7eb3394}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +45,33 @@
     <ClCompile Include="HUD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="State.h">
@@ -56,5 +92,86 @@
     <ClInclude Include="HUD.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sfmlGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Pictures\BAT1.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\BAT2.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\BAT3.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\spike.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\bg.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\ceiling.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\ground.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\chain.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\gameOverBody.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\gameOver.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\playButton.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\comProg\game\title.png">
+      <Filter>Resource Files\res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\sfml\sfml\font\TheWildBreathOfZelda-15Lv.ttf">
+      <Filter>Resource Files\font</Filter>
+    </Font>
   </ItemGroup>
 </Project>
